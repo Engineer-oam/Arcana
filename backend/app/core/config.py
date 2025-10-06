@@ -19,6 +19,8 @@ class Settings(BaseSettings):
     JWT_SECRET: str = "change-me"
     JWT_ALGORITHM: str = "HS256"
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 12
+    ADMIN_EMAIL: str = "admin@example.com"
+    ADMIN_PASSWORD: str = "ChangeMe123!"
 
     S3_ENDPOINT_URL: str | None = None
     S3_BUCKET: str = "ediscovery"
