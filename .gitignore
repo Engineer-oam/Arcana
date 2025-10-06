@@ -1,0 +1,27 @@
+# Node
+node_modules
+*.log
+
+# Python
+__pycache__
+*.pyc
+.venv
+.pytest_cache
+
+# Env
+.env
+*.env
+
+# Build
+/dist
+/build
+
+# Python packaging
+*.egg-info
+
+# IDE
+.idea
+.vscode
+
+# OS
+.DS_Store
